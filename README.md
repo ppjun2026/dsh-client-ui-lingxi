@@ -1,5 +1,9 @@
 # 灵犀 · 灵感工作台（dsh-client-ui-lingxi）
 
+[![License: MIT](https://img.shields.io/github/license/ppjun2026/dsh-client-ui-lingxi?color=blue)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/ppjun2026/dsh-client-ui-lingxi?include_prereleases&label=release&color=orange)](https://github.com/ppjun2026/dsh-client-ui-lingxi/releases)
+[![Stars](https://img.shields.io/github/stars/ppjun2026/dsh-client-ui-lingxi?style=social)](https://github.com/ppjun2026/dsh-client-ui-lingxi)
+
 > 日常中散落、模糊的临时想法，往往日后会成长为好项目，甚至彼此关联。
 > 灵犀把它们沉淀成一个「灵感池」：随时录入 → 随时打捞深入 → 制定计划 → 立项管理，
 > 并由 AI 帮你做初步解析、评分、标签化与关联合并。
