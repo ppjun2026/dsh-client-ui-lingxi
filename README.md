@@ -19,7 +19,7 @@
 - **关联与合并**：检测想法间的关联（高/中/低 + 理由），关联度高的建议合并，合并保留历史。
 - **关联图谱**：Canvas 力导向网络图，直观看到想法之间的关联簇。
 - **深入构想**：每条想法可累积「构想记录」。
-- **项目管理**：立项后生成项目 + 任务看板（待办 / 进行中 / 已完成）。
+- **项目管理**：立项后生成项目 + 任务看板（待办 / 进行中 / 已完成），任务支持**优先级**（高/中/低）与**截止日期**（逾期自动标注）。
 
 ## 安装
 
@@ -78,7 +78,8 @@ dsh plugin --profile web add @linxin666/dsh-client-ui-lingxi
     "mergedInto": null, "createdAt": 0, "updatedAt": 0
   }],
   "projects": [{ "id": "…", "ideaId": "…", "name": "…", "goal": "…",
-    "tasks": [{ "id": "…", "title": "…", "status": "todo|doing|done" }] }],
+    "tasks": [{ "id": "…", "title": "…", "status": "todo|doing|done",
+      "priority": "high|medium|low", "dueDate": "YYYY-MM-DD" }] }],
   "merges": [{ "id": "…", "intoId": "…", "fromId": "…", "reason": "…", "createdAt": 0 }]
 }
 ```

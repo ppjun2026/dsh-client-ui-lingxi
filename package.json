@@ -1,7 +1,7 @@
 {
   "name": "@linxin666/dsh-client-ui-lingxi",
-  "description": "灵犀 — DSH Web GUI 灵感工作台插件：想法池录入/孵化/计划/项目管理 + AI 解析与关联网络图谱，数据存单文件 JSON，双通道（对话+网页）共享。",
-  "version": "0.1.0",
+  "description": "灵犀 — DSH Web GUI 灵感工作台插件：想法池录入/孵化/计划/立项管理 + AI 解析与关联网络图谱，任务看板支持优先级与截止日期，数据存单文件 JSON，双通道（对话+网页）共享。",
+  "version": "0.2.0",
   "keywords": [
     "dsh",
     "dsh-plugin",
