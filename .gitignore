@@ -1,0 +1,20 @@
+# 依赖
+node_modules/
+.pnpm-store/
+
+# 本地数据（个人想法池，切勿提交）
+lingxi-data.json
+*.corrupt-*
+*.tmp-*
+
+# 本地运维脚本 / 日志
+restart-dsh.ps1
+*.cmd
+*.log
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

@@ -1,0 +1,42 @@
+{
+  "name": "@linxin666/dsh-client-ui-lingxi",
+  "description": "灵犀 — DSH Web GUI 灵感工作台插件：想法池录入/孵化/计划/项目管理 + AI 解析与关联网络图谱，数据存单文件 JSON，双通道（对话+网页）共享。",
+  "version": "0.1.0",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "idea",
+    "workbench",
+    "灵感",
+    "想法池"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ppjun2026/dsh-client-ui-lingxi.git"
+  },
+  "homepage": "https://github.com/ppjun2026/dsh-client-ui-lingxi#readme",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "dependencies": {},
+  "peerDependencies": {},
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml"
+  ],
+  "license": "MIT"
+}

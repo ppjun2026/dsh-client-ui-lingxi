@@ -1,0 +1,14 @@
+# 灵犀（dsh-client-ui-lingxi）bundle patch：向 web profile 的 roster 插入本插件行。
+# 节点侧（exports "."）在 Host 进程运行，提供 /api/lingxi 数据路由；
+# 浏览器侧（exports "./client"，由 dsh.client 声明）在 Web GUI 加载，渲染工作台。
+#
+# dataFile：数据文件路径（可选）。
+# - 留空/删除该行时，默认使用 ~/.dsh/lingxi/lingxi-data.json（由 lib/index.js 兜底）。
+# - 也可设为相对路径（相对 DSH 进程的工作目录）或绝对路径。
+# - 也可用环境变量 LINGXI_DATA_FILE 覆盖。
+# 提示：移动工作区/换机器时，改这一行即可，数据文件本身可随时备份。
+- insert:
+    - id: ui-lingxi
+      name: '@linxin666/dsh-client-ui-lingxi'
+      config:
+        dataFile: './lingxi-data.json'
